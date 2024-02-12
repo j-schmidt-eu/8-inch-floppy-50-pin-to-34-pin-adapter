@@ -214,11 +214,6 @@ The MPLAB X IDE project is located in the [Firmware](Firmware) folder.
 >**Check the manual of your drive to see if it needs any additional signals like TG43 and Head load.
 If so, check if one of the available options matches the behavior required by the drive. When that is the case, the drive will very likely work.**
 
-
-##### Can I build and use this for personal, non-commercial purposes?
->**Yes.**
-
-
 ## Licensing
 This project is licensed under the [CC BY-NC-ND 4.0 license](LICENSE).
 
