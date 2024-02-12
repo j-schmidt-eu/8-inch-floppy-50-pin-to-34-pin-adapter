@@ -1,0 +1,1801 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L device:R_Pack04 RN1
+U 1 1 5F2B3061
+P 1860 6420
+F 0 "RN1" V 2115 6420 50  0000 C CNN
+F 1 "47R" V 2045 6420 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 2135 6420 50  0001 C CNN
+F 3 "" H 1860 6420 50  0001 C CNN
+F 4 "Panasonic EXB38V470JV" V 1860 6420 50  0001 C CNN "Type"
+	1    1860 6420
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2060 6520 2075 6520
+Wire Wire Line
+	2060 6620 2075 6620
+$Comp
+L cmos4000:4543 U2
+U 1 1 5F261799
+P 1120 6720
+F 0 "U2" H 810 7215 50  0000 C CNN
+F 1 "HEF4543B" H 1310 7215 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 1120 6670 50  0001 C CNN
+F 3 "" H 1120 6670 50  0001 C CNN
+F 4 "NXP HEF4543B" H 1120 6720 50  0001 C CNN "Type"
+	1    1120 6720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2060 6320 2075 6320
+Wire Wire Line
+	2060 6420 2075 6420
+Text Label 975  1040 0    50   ~ 0
+12V0
+Text Label 1325 5095 0    50   ~ 0
+~WRITE_GATE
+Text Label 1325 4895 0    50   ~ 0
+~STEP
+Text Label 1325 4395 0    50   ~ 0
+~MOTOR_ENABLE_A
+Text Label 1325 4295 0    50   ~ 0
+~INDEX
+Text Label 10145 3595 2    50   ~ 0
+~TWO_SIDED
+Text Label 10145 3395 2    50   ~ 0
+~ALT_IO_2
+Text Label 1325 5295 0    50   ~ 0
+~WRITE_PROTECT
+Text Label 1325 4995 0    50   ~ 0
+~WRITE_DATA
+Text Label 1325 4095 0    50   ~ 0
+N{slash}C_1
+Text Label 1325 5495 0    50   ~ 0
+~SIDE_SELECT
+Text Label 1325 5595 0    50   ~ 0
+~DISK_CHANGE{slash}READY
+Text Label 1325 5195 0    50   ~ 0
+~TRACK_00
+Text Label 10145 3495 2    50   ~ 0
+~ALT_IO_3
+Text Label 10145 3295 2    50   ~ 0
+~ALT_IO_1
+Text Label 1325 4495 0    50   ~ 0
+~DRIVE_SELECT_B
+Text Label 1325 4695 0    50   ~ 0
+~MOTOR_ENABLE_B
+Text Label 1325 4595 0    50   ~ 0
+~DRIVE_SELECT_A
+Text Label 1325 4195 0    50   ~ 0
+N{slash}C_2
+Text Label 1325 4795 0    50   ~ 0
+~DIRECTION
+Text Label 1325 5395 0    50   ~ 0
+~READ_DATA
+Connection ~ 10790 4095
+Connection ~ 10790 5195
+Connection ~ 705  5595
+Connection ~ 10790 5295
+Connection ~ 1245 940 
+Connection ~ 705  4095
+Connection ~ 10790 5395
+Connection ~ 10790 5595
+Connection ~ 705  4195
+Connection ~ 705  4895
+Connection ~ 705  4295
+Connection ~ 705  4395
+Connection ~ 705  4495
+Connection ~ 10790 4795
+Connection ~ 705  5195
+Connection ~ 705  5495
+Connection ~ 10790 4295
+Connection ~ 10790 3495
+Connection ~ 10790 4595
+Connection ~ 10790 3795
+Connection ~ 10790 3695
+Connection ~ 705  4595
+Connection ~ 705  4695
+Connection ~ 10790 4495
+Connection ~ 705  4795
+Connection ~ 705  4995
+Connection ~ 10790 3995
+Connection ~ 10790 4895
+Connection ~ 10790 5495
+Connection ~ 705  5295
+Connection ~ 705  5395
+Connection ~ 10790 3295
+Connection ~ 10790 4195
+Connection ~ 10790 4695
+Connection ~ 10790 3395
+Connection ~ 10790 4395
+Connection ~ 10790 4995
+Connection ~ 10790 5095
+Connection ~ 705  5095
+Connection ~ 10790 3595
+Connection ~ 10790 3895
+Wire Wire Line
+	9615 5495 10190 5495
+Wire Wire Line
+	1245 840  960  840 
+Wire Wire Line
+	9165 5595 10190 5595
+Wire Wire Line
+	9615 4595 10190 4595
+Wire Wire Line
+	9615 4295 10190 4295
+Wire Wire Line
+	1305 3995 2350 3995
+Wire Wire Line
+	1305 4695 2970 4695
+Wire Wire Line
+	1245 940  1245 840 
+Wire Wire Line
+	9620 3895 10190 3895
+Wire Wire Line
+	1245 940  1245 1110
+Wire Wire Line
+	9165 4695 10190 4695
+Wire Wire Line
+	1245 940  960  940 
+Text Label 10145 3895 2    50   ~ 0
+~IN_USE
+Text Label 10155 4195 2    50   ~ 0
+~READY
+Text Label 10155 4895 2    50   ~ 0
+~STEP
+Text Label 1325 3995 0    50   ~ 0
+~DENSITY_SELECT
+Text Label 10155 5495 2    50   ~ 0
+N{slash}C_3
+Text Label 10155 5195 2    50   ~ 0
+~TRACK_00
+Text Label 10155 4595 2    50   ~ 0
+~DRIVE_SELECT_2
+Text Label 10155 4495 2    50   ~ 0
+~DRIVE_SELECT_1
+Text Label 10155 4395 2    50   ~ 0
+~DRIVE_SELECT_0
+Text Label 10155 3995 2    50   ~ 0
+~HEAD_LOAD
+Text Label 10155 3795 2    50   ~ 0
+~SIDE_SELECT
+Text Label 10155 4295 2    50   ~ 0
+~ALT_IO_4
+Text Label 10155 4095 2    50   ~ 0
+~INDEX
+Text Label 10155 5595 2    50   ~ 0
+N{slash}C_4
+Text Label 10155 5095 2    50   ~ 0
+~WRITE_GATE
+Text Label 10155 4995 2    50   ~ 0
+~WRITE_DATA
+Text Label 10155 4795 2    50   ~ 0
+~DIRECTION
+Text Label 10155 3695 2    50   ~ 0
+~DISK_CHANGE
+Text Label 10155 5395 2    50   ~ 0
+~READ_DATA
+Text Label 10155 5295 2    50   ~ 0
+~WRITE_PROTECT
+Text Label 10155 4695 2    50   ~ 0
+~DRIVE_SELECT_3
+Wire Wire Line
+	10690 4495 10790 4495
+Wire Wire Line
+	10690 3395 10790 3395
+Wire Wire Line
+	10690 5195 10790 5195
+Wire Wire Line
+	10690 4995 10790 4995
+Wire Wire Line
+	10690 5095 10790 5095
+Wire Wire Line
+	10690 5495 10790 5495
+Wire Wire Line
+	10690 3495 10790 3495
+Wire Wire Line
+	10690 4595 10790 4595
+Wire Wire Line
+	10690 3695 10790 3695
+Wire Wire Line
+	1305 5395 10190 5395
+Wire Wire Line
+	1305 5495 6000 5495
+Wire Wire Line
+	1305 5295 10190 5295
+Wire Wire Line
+	10690 3595 10790 3595
+Wire Wire Line
+	6000 3795 10190 3795
+Wire Wire Line
+	9620 3495 10190 3495
+Wire Wire Line
+	10690 3995 10790 3995
+Wire Wire Line
+	1305 4995 10190 4995
+Wire Wire Line
+	10690 4095 10790 4095
+Wire Wire Line
+	10690 3895 10790 3895
+Wire Wire Line
+	9220 3595 10190 3595
+Wire Wire Line
+	805  3995 705  3995
+Wire Wire Line
+	10690 5295 10790 5295
+Wire Wire Line
+	10690 4895 10790 4895
+Wire Wire Line
+	10690 4395 10790 4395
+Wire Wire Line
+	10690 4195 10790 4195
+Wire Wire Line
+	10690 4795 10790 4795
+Wire Wire Line
+	9220 3395 10190 3395
+Wire Wire Line
+	6100 4495 6100 4395
+Wire Wire Line
+	10690 3295 10790 3295
+Wire Wire Line
+	6200 4595 6200 4495
+Wire Wire Line
+	1305 4195 2350 4195
+Wire Wire Line
+	1305 4095 1900 4095
+Wire Wire Line
+	705  5595 805  5595
+Wire Wire Line
+	705  5395 805  5395
+Wire Wire Line
+	705  5495 805  5495
+Wire Wire Line
+	10690 3195 10790 3195
+Wire Wire Line
+	10690 5395 10790 5395
+Wire Wire Line
+	10690 5595 10790 5595
+Wire Wire Line
+	10690 3795 10790 3795
+Wire Wire Line
+	9620 3295 10190 3295
+Wire Wire Line
+	1305 4595 6200 4595
+Wire Wire Line
+	10690 4295 10790 4295
+Wire Wire Line
+	6200 4495 10190 4495
+Wire Wire Line
+	10690 4695 10790 4695
+Wire Wire Line
+	705  4995 805  4995
+Wire Wire Line
+	705  4495 705  4595
+Wire Wire Line
+	705  5195 705  5295
+Wire Wire Line
+	705  5495 705  5595
+Wire Wire Line
+	10790 3295 10790 3395
+Wire Wire Line
+	10790 5195 10790 5295
+Wire Wire Line
+	10790 4495 10790 4595
+Wire Wire Line
+	10790 3495 10790 3595
+Wire Wire Line
+	10790 5595 10790 5695
+Wire Wire Line
+	705  4795 705  4895
+Wire Wire Line
+	10790 4895 10790 4995
+Wire Wire Line
+	10790 4395 10790 4495
+Wire Wire Line
+	10790 4795 10790 4895
+Wire Wire Line
+	1305 4395 1905 4395
+Wire Wire Line
+	705  4695 705  4795
+Wire Wire Line
+	10790 4595 10790 4695
+Wire Wire Line
+	10790 3695 10790 3795
+Wire Wire Line
+	10790 4995 10790 5095
+Wire Wire Line
+	705  5295 805  5295
+Wire Wire Line
+	705  4395 805  4395
+Wire Wire Line
+	10790 4095 10790 4195
+Wire Wire Line
+	705  4895 705  4995
+Wire Wire Line
+	705  5195 805  5195
+Wire Wire Line
+	705  4895 805  4895
+Wire Wire Line
+	705  4295 805  4295
+Wire Wire Line
+	705  4395 705  4495
+Wire Wire Line
+	10790 3195 10790 3295
+Wire Wire Line
+	705  4495 805  4495
+Wire Wire Line
+	705  5095 805  5095
+Wire Wire Line
+	10790 3395 10790 3495
+Wire Wire Line
+	10790 4295 10790 4395
+Wire Wire Line
+	10790 4695 10790 4795
+Wire Wire Line
+	705  4795 805  4795
+Wire Wire Line
+	10790 3995 10790 4095
+Wire Wire Line
+	705  4095 805  4095
+Wire Wire Line
+	705  4195 805  4195
+Wire Wire Line
+	705  4595 805  4595
+Wire Wire Line
+	10790 3795 10790 3895
+Wire Wire Line
+	705  4695 805  4695
+Wire Wire Line
+	705  4095 705  4195
+Wire Wire Line
+	10790 5095 10790 5195
+Wire Wire Line
+	705  4195 705  4295
+Wire Wire Line
+	705  4295 705  4395
+Wire Wire Line
+	10790 5495 10790 5595
+Wire Wire Line
+	705  4595 705  4695
+Wire Wire Line
+	705  4995 705  5095
+Wire Wire Line
+	705  5095 705  5195
+Wire Wire Line
+	10790 3895 10790 3995
+Wire Wire Line
+	10790 5395 10790 5495
+Wire Wire Line
+	705  5295 705  5395
+Wire Wire Line
+	705  3995 705  4095
+Wire Wire Line
+	10790 3595 10790 3695
+Wire Wire Line
+	10790 4195 10790 4295
+Wire Wire Line
+	10790 5295 10790 5395
+Wire Wire Line
+	705  5395 705  5495
+Wire Wire Line
+	705  5695 705  5595
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5F4C8D92
+P 760 840
+F 0 "J2" H 678 415 50  0000 C CNN
+F 1 "PWR" H 678 506 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 760 840 50  0001 C CNN
+F 3 "" H 760 840 50  0001 C CNN
+F 4 "econ connect FK03PN" H 760 840 50  0001 C CNN "Type"
+	1    760  840 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP5
+U 1 1 5F46479B
+P 9620 3295
+F 0 "TP5" V 9574 3483 50  0000 L CNN
+F 1 "FDD50_4" V 9665 3483 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9820 3295 50  0001 C CNN
+F 3 "" H 9820 3295 50  0001 C CNN
+	1    9620 3295
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even J1
+U 1 1 5F224676
+P 1005 4795
+F 0 "J1" H 1055 5812 50  0000 C CNN
+F 1 "PC34" H 1055 5721 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-3434_2x17x2.54mm_Straight" H 1005 4795 50  0001 C CNN
+F 3 "" H 1005 4795 50  0001 C CNN
+F 4 "Connfly DS1013-34SSIB1-B-0" H 1005 4795 50  0001 C CNN "Type"
+	1    1005 4795
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP14
+U 1 1 5F4C469E
+P 9165 5595
+F 0 "TP14" V 9119 5783 50  0000 L CNN
+F 1 "FDD50_50" V 9210 5783 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9365 5595 50  0001 C CNN
+F 3 "" H 9365 5595 50  0001 C CNN
+	1    9165 5595
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP8
+U 1 1 5F4E291D
+P 9220 3595
+F 0 "TP8" V 9174 3783 50  0000 L CNN
+F 1 "FDD50_10" V 9265 3783 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9420 3595 50  0001 C CNN
+F 3 "" H 9420 3595 50  0001 C CNN
+	1    9220 3595
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F4CFE1C
+P 1245 1135
+F 0 "#PWR02" H 1245 885 50  0001 C CNN
+F 1 "GND" H 1250 962 50  0000 C CNN
+F 2 "" H 1245 1135 50  0001 C CNN
+F 3 "" H 1245 1135 50  0001 C CNN
+	1    1245 1135
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP13
+U 1 1 5F4C46B3
+P 9615 5495
+F 0 "TP13" V 9569 5683 50  0000 L CNN
+F 1 "FDD50_48" V 9660 5683 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9815 5495 50  0001 C CNN
+F 3 "" H 9815 5495 50  0001 C CNN
+	1    9615 5495
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP2
+U 1 1 5F45D974
+P 1900 4095
+F 0 "TP2" V 1854 4283 50  0000 L CNN
+F 1 "PC34_4" V 1945 4283 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2100 4095 50  0001 C CNN
+F 3 "" H 2100 4095 50  0001 C CNN
+	1    1900 4095
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5F277BBA
+P 10790 5695
+F 0 "#PWR04" H 10790 5445 50  0001 C CNN
+F 1 "GND" H 10795 5522 50  0000 C CNN
+F 2 "" H 10790 5695 50  0001 C CNN
+F 3 "" H 10790 5695 50  0001 C CNN
+	1    10790 5695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP11
+U 1 1 5F4C1652
+P 9615 4595
+F 0 "TP11" V 9569 4783 50  0000 L CNN
+F 1 "FDD50_30" V 9660 4783 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9815 4595 50  0001 C CNN
+F 3 "" H 9815 4595 50  0001 C CNN
+	1    9615 4595
+	0    -1   1    0   
+$EndComp
+$Comp
+L conn:Conn_02x25_Odd_Even J3
+U 1 1 5F238479
+P 10490 4395
+F 0 "J3" H 10540 5812 50  0000 C CNN
+F 1 "FDD50" H 10540 5721 50  0000 C CNN
+F 2 "Connectors_Multicomp:Multicomp_MC9A12-5034_2x25x2.54mm_Straight" H 10490 4395 50  0001 C CNN
+F 3 "" H 10490 4395 50  0001 C CNN
+F 4 "Connfly DS1013-50SSIB1-B-0" H 10490 4395 50  0001 C CNN "Type"
+	1    10490 4395
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP3
+U 1 1 5F4629EB
+P 2350 4195
+F 0 "TP3" V 2304 4383 50  0000 L CNN
+F 1 "PC34_6" V 2395 4383 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2550 4195 50  0001 C CNN
+F 3 "" H 2550 4195 50  0001 C CNN
+	1    2350 4195
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP10
+U 1 1 5F4C0678
+P 9615 4295
+F 0 "TP10" V 9569 4483 50  0000 L CNN
+F 1 "FDD50_24" V 9660 4483 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9815 4295 50  0001 C CNN
+F 3 "" H 9815 4295 50  0001 C CNN
+	1    9615 4295
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F27884A
+P 705 5695
+F 0 "#PWR01" H 705 5445 50  0001 C CNN
+F 1 "GND" H 710 5522 50  0000 C CNN
+F 2 "" H 705 5695 50  0001 C CNN
+F 3 "" H 705 5695 50  0001 C CNN
+	1    705  5695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP1
+U 1 1 5F4BEA53
+P 2350 3995
+F 0 "TP1" V 2304 4183 50  0000 L CNN
+F 1 "PC34_2" V 2395 4183 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2550 3995 50  0001 C CNN
+F 3 "" H 2550 3995 50  0001 C CNN
+	1    2350 3995
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP9
+U 1 1 5F4B66E0
+P 9620 3895
+F 0 "TP9" V 9574 4083 50  0000 L CNN
+F 1 "FDD50_16" V 9665 4083 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9820 3895 50  0001 C CNN
+F 3 "" H 9820 3895 50  0001 C CNN
+	1    9620 3895
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP6
+U 1 1 5F4E291C
+P 9220 3395
+F 0 "TP6" V 9174 3583 50  0000 L CNN
+F 1 "FDD50_6" V 9265 3583 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9420 3395 50  0001 C CNN
+F 3 "" H 9420 3395 50  0001 C CNN
+	1    9220 3395
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP7
+U 1 1 5F467275
+P 9620 3495
+F 0 "TP7" V 9574 3683 50  0000 L CNN
+F 1 "FDD50_8" V 9665 3683 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9820 3495 50  0001 C CNN
+F 3 "" H 9820 3495 50  0001 C CNN
+	1    9620 3495
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP4
+U 1 1 5F4BFC5F
+P 1905 4395
+F 0 "TP4" V 1859 4583 50  0000 L CNN
+F 1 "PC34_10" V 1950 4583 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2105 4395 50  0001 C CNN
+F 3 "" H 2105 4395 50  0001 C CNN
+	1    1905 4395
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Specialized:Test_Point TP12
+U 1 1 5F4C1D02
+P 9165 4695
+F 0 "TP12" V 9119 4883 50  0000 L CNN
+F 1 "FDD50_32" V 9210 4883 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9365 4695 50  0001 C CNN
+F 3 "" H 9365 4695 50  0001 C CNN
+	1    9165 4695
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1620 6420 1660 6420
+Wire Wire Line
+	1620 6520 1660 6520
+Wire Wire Line
+	1620 6620 1660 6620
+Wire Wire Line
+	1620 6720 1660 6720
+$Comp
+L device:R_Pack04 RN3
+U 1 1 5F35A5EC
+P 2275 6420
+F 0 "RN3" V 2530 6420 50  0000 C CNN
+F 1 "100R" V 2460 6420 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 2550 6420 50  0001 C CNN
+F 3 "" H 2275 6420 50  0001 C CNN
+F 4 "Panasonic EXB38V101JV" V 2275 6420 50  0001 C CNN "Type"
+	1    2275 6420
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R_Pack04 RN4
+U 1 1 5F2C4A2C
+P 2275 6820
+F 0 "RN4" V 1890 6820 50  0000 C CNN
+F 1 "100R" V 1975 6820 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 2550 6820 50  0001 C CNN
+F 3 "" H 2275 6820 50  0001 C CNN
+F 4 "Panasonic EXB38V101JV" V 2275 6820 50  0001 C CNN "Type"
+	1    2275 6820
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1620 6820 1660 6820
+Wire Wire Line
+	1620 7020 1660 6920
+Wire Wire Line
+	1620 6920 1660 7020
+Wire Wire Line
+	2475 6320 2495 6320
+Wire Wire Line
+	2475 6420 2495 6420
+Wire Wire Line
+	2475 6520 2495 6520
+Entry Wire Line
+	2595 6620 2495 6520
+Entry Wire Line
+	2595 6520 2495 6420
+Entry Wire Line
+	2595 6420 2495 6320
+Text Label 2485 6320 0    20   ~ 0
+1H
+Text Label 2485 6420 0    20   ~ 0
+1A
+Text Label 2485 6520 0    20   ~ 0
+1B
+Entry Wire Line
+	2595 6720 2495 6620
+Entry Wire Line
+	2595 6820 2495 6720
+Entry Wire Line
+	2595 6920 2495 6820
+Entry Wire Line
+	2595 7020 2495 6920
+Entry Wire Line
+	2595 7120 2495 7020
+Wire Wire Line
+	2475 7020 2495 7020
+Wire Wire Line
+	2475 6920 2495 6920
+Wire Wire Line
+	2475 6820 2495 6820
+Wire Wire Line
+	2475 6720 2495 6720
+Wire Wire Line
+	2475 6620 2495 6620
+Text Label 2485 6620 0    20   ~ 0
+1C
+Text Label 2485 6720 0    20   ~ 0
+1D
+Text Label 2485 6820 0    20   ~ 0
+1E
+Text Label 2485 6920 0    20   ~ 0
+1G
+Text Label 2485 7020 0    20   ~ 0
+1F
+Wire Wire Line
+	1620 6080 1620 6320
+Wire Wire Line
+	1620 6320 1660 6320
+Entry Wire Line
+	505  6720 605  6620
+Wire Wire Line
+	605  6520 620  6520
+Wire Wire Line
+	605  6420 620  6420
+Wire Wire Line
+	605  6620 620  6620
+Wire Wire Line
+	605  6720 620  6720
+Wire Wire Line
+	605  6080 1620 6080
+Entry Wire Line
+	505  6620 605  6520
+Entry Wire Line
+	505  6180 605  6080
+Entry Wire Line
+	505  6520 605  6420
+Entry Wire Line
+	505  6820 605  6720
+Wire Wire Line
+	2060 7020 2075 7020
+Wire Wire Line
+	2060 6920 2075 6920
+Wire Wire Line
+	2060 6820 2075 6820
+Wire Wire Line
+	2060 6720 2075 6720
+$Comp
+L device:R_Pack04 RN2
+U 1 1 5F2C2787
+P 1860 6820
+F 0 "RN2" V 1475 6820 50  0000 C CNN
+F 1 "47R" V 1560 6820 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 2135 6820 50  0001 C CNN
+F 3 "" H 1860 6820 50  0001 C CNN
+F 4 "Panasonic EXB38V470JV" V 1860 6820 50  0001 C CNN "Type"
+	1    1860 6820
+	0    1    -1   0   
+$EndComp
+Text Label 615  6720 2    20   ~ 0
+1D3
+Text Label 615  6620 2    20   ~ 0
+1D2
+Text Label 610  6080 2    20   ~ 0
+1DP
+Text Label 610  6520 2    20   ~ 0
+1D1
+Entry Wire Line
+	4995 7465 5095 7365
+Entry Wire Line
+	5095 7465 5195 7365
+Entry Wire Line
+	5295 7465 5395 7365
+Entry Wire Line
+	5195 7465 5295 7365
+Entry Wire Line
+	5495 7465 5595 7365
+Entry Wire Line
+	5395 7465 5495 7365
+Entry Wire Line
+	5795 7465 5895 7365
+Entry Wire Line
+	5595 7465 5695 7365
+Wire Wire Line
+	5095 7330 5095 7365
+Wire Wire Line
+	5195 7330 5195 7365
+Wire Wire Line
+	5295 7330 5295 7365
+Wire Wire Line
+	5395 7330 5395 7365
+Wire Wire Line
+	5495 7330 5495 7365
+Wire Wire Line
+	5595 7330 5595 7365
+Wire Wire Line
+	5695 7330 5695 7365
+Wire Wire Line
+	5895 7330 5895 7365
+Text Label 5095 7350 1    20   ~ 0
+1A
+Text Label 5195 7350 1    20   ~ 0
+1B
+Text Label 5295 7350 1    20   ~ 0
+1C
+Text Label 5395 7350 1    20   ~ 0
+1D
+Text Label 5495 7350 1    20   ~ 0
+1E
+Text Label 5595 7350 1    20   ~ 0
+1F
+Text Label 5695 7350 1    20   ~ 0
+1G
+Text Label 5895 7350 1    20   ~ 0
+1H
+$Comp
+L device:R_Pack04 RN8
+U 1 1 5F39060A
+P 4515 6820
+F 0 "RN8" V 4130 6820 50  0000 C CNN
+F 1 "100R" V 4215 6820 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 4790 6820 50  0001 C CNN
+F 3 "" H 4515 6820 50  0001 C CNN
+F 4 "Panasonic EXB38V101JV" V 4515 6820 50  0001 C CNN "Type"
+	1    4515 6820
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R_Pack04 RN7
+U 1 1 5F390669
+P 4515 6420
+F 0 "RN7" V 4770 6420 50  0000 C CNN
+F 1 "100R" V 4700 6420 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 4790 6420 50  0001 C CNN
+F 3 "" H 4515 6420 50  0001 C CNN
+F 4 "Panasonic EXB38V101JV" V 4515 6420 50  0001 C CNN "Type"
+	1    4515 6420
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R_Pack04 RN6
+U 1 1 5F390746
+P 4100 6820
+F 0 "RN6" V 3715 6820 50  0000 C CNN
+F 1 "47R" V 3800 6820 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 4375 6820 50  0001 C CNN
+F 3 "" H 4100 6820 50  0001 C CNN
+F 4 "Panasonic EXB38V470JV" V 4100 6820 50  0001 C CNN "Type"
+	1    4100 6820
+	0    1    -1   0   
+$EndComp
+$Comp
+L device:R_Pack04 RN5
+U 1 1 5F3907A5
+P 4100 6420
+F 0 "RN5" V 4355 6420 50  0000 C CNN
+F 1 "47R" V 4285 6420 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" V 4375 6420 50  0001 C CNN
+F 3 "" H 4100 6420 50  0001 C CNN
+F 4 "Panasonic EXB38V470JV" V 4100 6420 50  0001 C CNN "Type"
+	1    4100 6420
+	0    1    -1   0   
+$EndComp
+Text Label 4725 6420 0    20   ~ 0
+2A
+Text Label 4725 6520 0    20   ~ 0
+2B
+Text Label 4725 6720 0    20   ~ 0
+2D
+Text Label 4725 6920 0    20   ~ 0
+2G
+Text Label 4725 6820 0    20   ~ 0
+2E
+Text Label 2850 6420 2    20   ~ 0
+2D0
+Text Label 4725 7020 0    20   ~ 0
+2F
+Text Label 4725 6620 0    20   ~ 0
+2C
+Text Label 4725 6320 0    20   ~ 0
+2H
+Text Label 2855 6720 2    20   ~ 0
+2D3
+Text Label 2850 6080 2    20   ~ 0
+2DP
+Text Label 2855 6620 2    20   ~ 0
+2D2
+Text Label 2850 6520 2    20   ~ 0
+2D1
+Entry Wire Line
+	2745 6820 2845 6720
+Entry Wire Line
+	2745 6520 2845 6420
+Entry Wire Line
+	2745 6180 2845 6080
+Entry Wire Line
+	2745 6620 2845 6520
+Wire Wire Line
+	2845 6080 3860 6080
+Wire Wire Line
+	3860 6080 3860 6320
+Wire Wire Line
+	3860 6320 3900 6320
+Entry Wire Line
+	2745 6720 2845 6620
+Wire Wire Line
+	4300 7020 4315 7020
+Wire Wire Line
+	4300 6420 4315 6420
+Wire Wire Line
+	4300 6820 4315 6820
+Wire Wire Line
+	4300 6520 4315 6520
+Wire Wire Line
+	4300 6620 4315 6620
+Wire Wire Line
+	4300 6320 4315 6320
+Wire Wire Line
+	4300 6720 4315 6720
+Wire Wire Line
+	4300 6920 4315 6920
+$Comp
+L display:7SEGMENT_CA U6
+U 1 1 5F3D8566
+P 6410 6930
+F 0 "U6" H 5980 7245 50  0000 L CNN
+F 1 "KCSA03-101" V 6910 6685 50  0000 L CNN
+F 2 "50 pin to 34 pin Floppy Adapter:KCSA03-101" H 6860 6630 50  0001 L CNN
+F 3 "" H 6410 6920 50  0001 L CNN
+F 4 "Kingbright KCSA03-101" H 6410 6930 50  0001 C CNN "Type"
+	1    6410 6930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6410 7330 6410 7365
+Wire Wire Line
+	6610 7330 6610 7365
+Wire Wire Line
+	6510 7330 6510 7365
+Wire Wire Line
+	6810 7330 6810 7365
+Text Label 6010 7350 1    20   ~ 0
+2A
+Text Label 6510 7350 1    20   ~ 0
+2F
+Text Label 6210 7350 1    20   ~ 0
+2C
+Text Label 6610 7350 1    20   ~ 0
+2G
+Text Label 6410 7350 1    20   ~ 0
+2E
+Text Label 6310 7350 1    20   ~ 0
+2D
+Text Label 6810 7350 1    20   ~ 0
+2H
+Entry Wire Line
+	6410 7465 6510 7365
+Entry Wire Line
+	6010 7365 5910 7465
+Entry Wire Line
+	6210 7465 6310 7365
+Entry Wire Line
+	6310 7465 6410 7365
+Entry Wire Line
+	6510 7465 6610 7365
+Entry Wire Line
+	6710 7465 6810 7365
+Entry Wire Line
+	6110 7465 6210 7365
+Wire Wire Line
+	6010 7330 6010 7365
+Wire Wire Line
+	6210 7330 6210 7365
+Wire Wire Line
+	6310 7330 6310 7365
+Text GLabel 5545 6395 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	5495 6530 5495 6465
+Wire Wire Line
+	5495 6465 5545 6465
+Wire Wire Line
+	5595 6465 5595 6530
+Wire Wire Line
+	5545 6395 5545 6465
+Connection ~ 5545 6465
+Wire Wire Line
+	5545 6465 5595 6465
+Text GLabel 6460 6395 1    50   Output ~ 0
+5V0
+Connection ~ 6460 6465
+Wire Wire Line
+	6460 6465 6510 6465
+Wire Wire Line
+	6460 6395 6460 6465
+Wire Wire Line
+	6410 6530 6410 6465
+Wire Wire Line
+	6410 6465 6460 6465
+Wire Wire Line
+	6510 6465 6510 6530
+Text GLabel 3360 5890 1    50   Output ~ 0
+5V0
+$Comp
+L power:GND #PWR0101
+U 1 1 5F3F1800
+P 1120 7345
+F 0 "#PWR0101" H 1120 7095 50  0001 C CNN
+F 1 "GND" H 1250 7272 50  0000 C CNN
+F 2 "" H 1120 7345 50  0001 C CNN
+F 3 "" H 1120 7345 50  0001 C CNN
+	1    1120 7345
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1120 7320 1120 7330
+Wire Wire Line
+	3360 5890 3360 6120
+Wire Wire Line
+	3860 6920 3900 7020
+Wire Wire Line
+	3860 6720 3900 6720
+Wire Wire Line
+	2845 6620 2860 6620
+Wire Wire Line
+	2845 6520 2860 6520
+Wire Wire Line
+	2845 6720 2860 6720
+Wire Wire Line
+	3860 6820 3900 6820
+Wire Wire Line
+	3860 6620 3900 6620
+Wire Wire Line
+	2845 6420 2860 6420
+Wire Wire Line
+	3860 6420 3900 6420
+Wire Wire Line
+	3860 7020 3900 6920
+Wire Wire Line
+	3860 6520 3900 6520
+$Comp
+L cmos4000:4543 U3
+U 1 1 5F3906C8
+P 3360 6720
+F 0 "U3" H 3055 7220 50  0000 C CNN
+F 1 "HEF4543B" H 3555 7225 50  0000 C CNN
+F 2 "Package_SO:SOP-16_4.55x10.3mm_P1.27mm" H 3360 6670 50  0001 C CNN
+F 3 "" H 3360 6670 50  0001 C CNN
+F 4 "NXP HEF4543B" H 3360 6720 50  0001 C CNN "Type"
+	1    3360 6720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3360 7320 3360 7330
+$Comp
+L power:GND #PWR0102
+U 1 1 5F3F219A
+P 3360 7345
+F 0 "#PWR0102" H 3360 7095 50  0001 C CNN
+F 1 "GND" H 3490 7272 50  0000 C CNN
+F 2 "" H 3360 7345 50  0001 C CNN
+F 3 "" H 3360 7345 50  0001 C CNN
+	1    3360 7345
+	1    0    0    -1  
+$EndComp
+$Comp
+L 50~pin~to~34~pin~Floppy~Adapter:PIC18F2XK22 U1
+U 1 1 5F214340
+P 6005 2035
+F 0 "U1" H 5200 3135 50  0000 C CNN
+F 1 "PIC18F26K22-I/ML" H 6610 3140 50  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm" H 6005 2035 50  0001 C CIN
+F 3 "" H 6005 1585 50  0001 C CNN
+F 4 "Microchip PIC18F26K22-I/ML" H 6005 2035 50  0001 C CNN "Type"
+	1    6005 2035
+	1    0    0    -1  
+$EndComp
+$Comp
+L display:7SEGMENT_CA U5
+U 1 1 5F26C076
+P 5495 6930
+F 0 "U5" H 5065 7245 50  0000 L CNN
+F 1 "KCSA03-101" V 4995 6690 50  0000 L CNN
+F 2 "50 pin to 34 pin Floppy Adapter:KCSA03-101" H 5945 6630 50  0001 L CNN
+F 3 "" H 5495 6920 50  0001 L CNN
+F 4 "Kingbright KCSA03-101" H 5495 6930 50  0001 C CNN "Type"
+	1    5495 6930
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7045 1235 7145 1135
+Entry Wire Line
+	7045 1335 7145 1235
+Entry Wire Line
+	7045 1435 7145 1335
+Entry Wire Line
+	7045 1635 7145 1535
+Entry Wire Line
+	7045 1835 7145 1735
+Entry Wire Line
+	7045 1735 7145 1635
+Wire Wire Line
+	7005 1135 7045 1135
+Wire Wire Line
+	7005 1235 7045 1235
+Wire Wire Line
+	7005 1335 7045 1335
+Wire Wire Line
+	7005 1435 7045 1435
+Wire Wire Line
+	7005 1635 7045 1635
+Wire Wire Line
+	7005 1735 7045 1735
+Wire Wire Line
+	7005 1835 7045 1835
+Entry Wire Line
+	7045 1135 7145 1035
+Text Label 7045 1135 2    20   ~ 0
+1D0
+Text Label 7045 1235 2    20   ~ 0
+1D1
+Text Label 7045 1335 2    20   ~ 0
+1D2
+Text Label 7045 1435 2    20   ~ 0
+1D3
+Text Label 7045 1535 2    20   ~ 0
+2D0
+Text Label 7045 1635 2    20   ~ 0
+2D1
+Text Label 7045 1735 2    20   ~ 0
+2D2
+Text Label 7045 1835 2    20   ~ 0
+2D3
+Text Label 10145 3195 2    50   ~ 0
+~TG43{slash}WRITE_CURRENT
+Text Label 2405 1300 0    20   ~ 0
+1DP
+Text Label 2405 1695 0    20   ~ 0
+2DP
+Text GLabel 1120 5890 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	1120 5890 1120 6120
+Wire Bus Line
+	505  6015 2745 6015
+Wire Bus Line
+	505  510  505  6015
+Wire Wire Line
+	7005 1535 7045 1535
+Entry Wire Line
+	7045 1535 7145 1435
+Wire Wire Line
+	6005 835  6005 775 
+Text GLabel 6005 775  1    50   Output ~ 0
+5V0
+$Comp
+L power:GND #PWR0103
+U 1 1 5F246DA2
+P 5955 3295
+F 0 "#PWR0103" H 5955 3045 50  0001 C CNN
+F 1 "GND" H 5955 3160 50  0000 C CNN
+F 2 "" H 5955 3295 50  0001 C CNN
+F 3 "" H 5955 3295 50  0001 C CNN
+	1    5955 3295
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5905 3235 5905 3260
+Wire Wire Line
+	5905 3260 5955 3260
+Wire Wire Line
+	6005 3260 6005 3235
+Wire Wire Line
+	5955 3260 5955 3295
+Connection ~ 5955 3260
+Wire Wire Line
+	5955 3260 6005 3260
+Text Label 610  6420 2    20   ~ 0
+1D0
+Wire Wire Line
+	6110 7330 6110 7365
+Entry Wire Line
+	6010 7465 6110 7365
+Text Label 6110 7350 1    20   ~ 0
+2B
+Connection ~ 505  6015
+Entry Bus Bus
+	4835 7365 4935 7465
+Wire Wire Line
+	4715 6420 4735 6420
+Wire Wire Line
+	4715 6320 4735 6320
+Wire Wire Line
+	4715 6520 4735 6520
+Wire Wire Line
+	4715 6920 4735 6920
+Wire Wire Line
+	4715 6820 4735 6820
+Wire Wire Line
+	4715 6620 4735 6620
+Wire Wire Line
+	4715 6720 4735 6720
+Wire Wire Line
+	4715 7020 4735 7020
+Entry Wire Line
+	4835 6720 4735 6620
+Entry Wire Line
+	4835 7020 4735 6920
+Entry Wire Line
+	4835 6620 4735 6520
+Entry Wire Line
+	4835 7120 4735 7020
+Entry Wire Line
+	4835 6820 4735 6720
+Entry Wire Line
+	4835 6920 4735 6820
+Entry Wire Line
+	4835 6520 4735 6420
+Entry Wire Line
+	4835 6420 4735 6320
+Wire Wire Line
+	3360 7330 2845 7330
+Connection ~ 3360 7330
+Wire Wire Line
+	3360 7330 3360 7345
+Wire Wire Line
+	1120 7330 605  7330
+Connection ~ 1120 7330
+Wire Wire Line
+	1120 7330 1120 7345
+Wire Wire Line
+	605  6920 620  6920
+Wire Wire Line
+	2845 6920 2860 6920
+Wire Wire Line
+	2775 6820 2860 6820
+Text GLabel 535  7090 3    50   Output ~ 0
+5V0
+Wire Wire Line
+	535  7090 535  7020
+Wire Wire Line
+	535  6820 620  6820
+Text Label 985  740  0    50   ~ 0
+5V0
+Wire Wire Line
+	6100 4395 8000 4395
+Wire Wire Line
+	6000 3795 6000 5495
+Wire Wire Line
+	960  1040 975  1040
+Wire Wire Line
+	3400 4695 3400 1135
+Wire Wire Line
+	3400 1135 5005 1135
+Wire Wire Line
+	5005 1435 3700 1435
+Wire Wire Line
+	3700 1435 3700 2435
+Wire Wire Line
+	5005 1835 4105 1835
+Wire Wire Line
+	4105 1835 4105 3595
+Wire Wire Line
+	5005 1735 4000 1735
+Wire Wire Line
+	4000 1735 4000 3695
+Wire Wire Line
+	5005 1535 3800 1535
+Wire Wire Line
+	5005 1635 3900 1635
+Wire Wire Line
+	3900 1635 3900 3995
+Wire Wire Line
+	4000 3695 7670 3695
+Text Label 4620 3505 0    50   ~ 0
+~MCLR
+Text Label 4615 3405 0    50   ~ 0
+VDD
+Text Label 4620 3305 0    50   ~ 0
+GND
+Text Label 4615 3205 0    50   ~ 0
+PGD
+Text Label 4615 3105 0    50   ~ 0
+PGC
+Wire Wire Line
+	4945 3205 4945 2835
+Wire Wire Line
+	4945 2835 5005 2835
+Wire Wire Line
+	7400 3505 7400 2135
+Wire Wire Line
+	7400 2135 7005 2135
+$Comp
+L device:R R2
+U 1 1 5F263935
+P 7400 1925
+F 0 "R2" H 7390 2075 50  0000 R CNN
+F 1 "22K" V 7395 1995 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805" V 7330 1925 50  0001 C CNN
+F 3 "" H 7400 1925 50  0001 C CNN
+	1    7400 1925
+	-1   0    0    1   
+$EndComp
+Text GLabel 7400 1685 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	7400 2075 7400 2135
+Connection ~ 7400 2135
+Wire Wire Line
+	7400 1685 7400 1775
+Wire Wire Line
+	3295 4295 3295 2635
+Wire Wire Line
+	3295 2635 5005 2635
+Wire Wire Line
+	3600 1335 5005 1335
+Wire Wire Line
+	1305 4795 3500 4795
+Wire Wire Line
+	3500 1235 5005 1235
+Wire Wire Line
+	3500 4795 3500 1235
+Connection ~ 3500 4795
+Wire Wire Line
+	3500 4795 10190 4795
+Wire Wire Line
+	1305 4295 3295 4295
+Connection ~ 3295 4295
+Entry Wire Line
+	2405 1695 2305 1595
+Wire Wire Line
+	2405 1695 2485 1695
+Wire Wire Line
+	4105 3595 7800 3595
+$Comp
+L device:R R5
+U 1 1 5F2C0A12
+P 7670 3370
+F 0 "R5" H 7670 3225 50  0000 L CNN
+F 1 "1K" V 7670 3315 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7600 3370 50  0001 C CNN
+F 3 "" H 7670 3370 50  0001 C CNN
+	1    7670 3370
+	1    0    0    -1  
+$EndComp
+Text GLabel 7670 3220 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	7670 3520 7670 3695
+Connection ~ 7670 3695
+Wire Wire Line
+	7670 3695 10190 3695
+$Comp
+L device:R R3
+U 1 1 5F2CE9FD
+P 2970 4065
+F 0 "R3" H 2970 3925 50  0000 L CNN
+F 1 "1K" V 2970 4010 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 2900 4065 50  0001 C CNN
+F 3 "" H 2970 4065 50  0001 C CNN
+	1    2970 4065
+	1    0    0    -1  
+$EndComp
+Text GLabel 2970 3915 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	2970 4215 2970 4695
+Connection ~ 2970 4695
+Wire Wire Line
+	2970 4695 3400 4695
+$Comp
+L device:R R4
+U 1 1 5F2CF2BC
+P 7505 3370
+F 0 "R4" H 7505 3230 50  0000 L CNN
+F 1 "1K" V 7505 3315 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7435 3370 50  0001 C CNN
+F 3 "" H 7505 3370 50  0001 C CNN
+	1    7505 3370
+	1    0    0    -1  
+$EndComp
+Text GLabel 7505 3220 1    50   Output ~ 0
+5V0
+$Comp
+L power:GND #PWR0107
+U 1 1 5F243BB4
+P 2680 2485
+F 0 "#PWR0107" H 2680 2235 50  0001 C CNN
+F 1 "GND" H 2680 2350 20  0000 C CNN
+F 2 "" H 2680 2485 50  0001 C CNN
+F 3 "" H 2680 2485 50  0001 C CNN
+	1    2680 2485
+	1    0    0    -1  
+$EndComp
+Text GLabel 2680 2385 0    20   Output ~ 0
+5V0
+Text GLabel 2735 1200 0    20   Output ~ 0
+5V0
+Text GLabel 1985 740  2    50   Input ~ 0
+5V0
+$Comp
+L device:C C1
+U 1 1 5F24C2B0
+P 1405 925
+F 0 "C1" H 1415 1010 50  0000 L CNN
+F 1 "100n" H 1410 845 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1443 775 50  0001 C CNN
+F 3 "" H 1405 925 50  0001 C CNN
+	1    1405 925 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1405 1075 1410 1110
+Wire Wire Line
+	1410 1110 1245 1110
+Connection ~ 1245 1110
+Wire Wire Line
+	1245 1110 1245 1135
+Wire Wire Line
+	960  740  1405 740 
+Wire Wire Line
+	1405 740  1405 775 
+Connection ~ 1405 740 
+Wire Wire Line
+	1405 740  1810 740 
+$Comp
+L device:CP C2
+U 1 1 5F25067F
+P 1810 930
+F 0 "C2" H 1815 1020 50  0000 L CNN
+F 1 "10u" H 1815 850 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow" H 1848 780 50  0001 C CNN
+F 3 "" H 1810 930 50  0001 C CNN
+	1    1810 930 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1410 1110 1810 1110
+Wire Wire Line
+	1810 1110 1810 1080
+Connection ~ 1410 1110
+Wire Wire Line
+	1810 740  1810 780 
+Connection ~ 1810 740 
+Wire Wire Line
+	1810 740  1985 740 
+$Comp
+L 74xgxx:74AUC2G34 U4
+U 2 1 5F275B57
+P 2735 1300
+F 0 "U4" H 2670 1300 50  0000 C CNN
+F 1 "NC7WZ16P6X" H 2710 1476 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2735 1300 50  0001 C CNN
+F 3 "" H 2735 1300 50  0001 C CNN
+F 4 "ON Semi NC7WZ16P6X" H 2735 1300 50  0001 C CNN "Type"
+	2    2735 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xgxx:74AUC2G34 U4
+U 1 1 5F277913
+P 2735 1695
+F 0 "U4" H 2665 1695 50  0000 C CNN
+F 1 "NC7WZ16P6X" H 2735 1525 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2735 1695 50  0001 C CNN
+F 3 "" H 2735 1695 50  0001 C CNN
+F 4 "ON Semi NC7WZ16P6X" H 2735 1695 50  0001 C CNN "Type"
+	1    2735 1695
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4875 3405 2    50   Output ~ 0
+5V0
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5F252BBA
+P 4415 3305
+F 0 "J5" H 4333 2880 50  0000 C CNN
+F 1 "PROG" H 4333 2971 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4415 3305 50  0001 C CNN
+F 3 "" H 4415 3305 50  0001 C CNN
+	1    4415 3305
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4615 3405 4875 3405
+Wire Wire Line
+	4615 3205 4945 3205
+Wire Wire Line
+	4615 3505 7400 3505
+Wire Wire Line
+	4615 3305 5190 3305
+$Comp
+L power:GND #PWR0105
+U 1 1 5F26C00B
+P 5190 3315
+F 0 "#PWR0105" H 5190 3065 50  0001 C CNN
+F 1 "GND" H 5190 3180 50  0000 C CNN
+F 2 "" H 5190 3315 50  0001 C CNN
+F 3 "" H 5190 3315 50  0001 C CNN
+	1    5190 3315
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5190 3305 5190 3315
+Connection ~ 4945 2835
+Connection ~ 4895 2735
+Wire Wire Line
+	4895 3105 4895 2735
+Wire Wire Line
+	4615 3105 4895 3105
+Wire Wire Line
+	4895 2735 5005 2735
+Wire Wire Line
+	950  2835 4945 2835
+Wire Wire Line
+	1155 2675 1155 2735
+Connection ~ 1155 2735
+Wire Wire Line
+	1155 2735 1155 2930
+Wire Wire Line
+	1155 2735 4895 2735
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5F4D26BF
+P 750 2835
+F 0 "J4" H 865 2900 50  0000 C CNN
+F 1 "EXT" H 880 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 750 2835 50  0001 C CNN
+F 3 "" H 750 2835 50  0001 C CNN
+	1    750  2835
+	-1   0    0    1   
+$EndComp
+$Comp
+L switches:SW_Push SW1
+U 1 1 5F25E951
+P 1155 2475
+F 0 "SW1" V 1201 2427 50  0000 R CNN
+F 1 "CMD" V 1110 2427 50  0000 R CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 1155 2675 50  0001 C CNN
+F 3 "" H 1155 2675 50  0001 C CNN
+F 4 "C&K PTS645SK50SMTR92LFS" V 1155 2475 50  0001 C CNN "Type"
+	1    1155 2475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R1
+U 1 1 5F2613EE
+P 1155 3080
+F 0 "R1" H 1165 2930 50  0000 L CNN
+F 1 "1K" V 1155 3030 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 1085 3080 50  0001 C CNN
+F 3 "" H 1155 3080 50  0001 C CNN
+	1    1155 3080
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F21794F
+P 950 3260
+F 0 "#PWR0104" H 950 3010 50  0001 C CNN
+F 1 "GND" H 950 3125 50  0000 C CNN
+F 2 "" H 950 3260 50  0001 C CNN
+F 3 "" H 950 3260 50  0001 C CNN
+	1    950  3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5F26E209
+P 1155 3260
+F 0 "#PWR05" H 1155 3010 50  0001 C CNN
+F 1 "GND" H 1155 3125 50  0000 C CNN
+F 2 "" H 1155 3260 50  0001 C CNN
+F 3 "" H 1155 3260 50  0001 C CNN
+	1    1155 3260
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  2185 1    50   Output ~ 0
+5V0
+Text GLabel 1155 2185 1    50   Output ~ 0
+5V0
+Wire Wire Line
+	950  2185 950  2735
+Wire Wire Line
+	1155 2185 1155 2275
+Wire Wire Line
+	950  2935 950  3260
+Wire Wire Line
+	1155 3230 1155 3260
+Wire Wire Line
+	7505 4195 10190 4195
+Wire Wire Line
+	7505 3520 7505 4195
+Connection ~ 7505 4195
+Wire Wire Line
+	3800 1535 3800 4895
+Connection ~ 3800 4895
+Wire Wire Line
+	3800 4895 10190 4895
+Wire Wire Line
+	3600 4195 7505 4195
+Wire Wire Line
+	3600 4195 3600 1335
+Wire Wire Line
+	1305 4895 3800 4895
+Wire Wire Line
+	2775 7090 2775 7020
+Text GLabel 2775 7090 3    50   Output ~ 0
+5V0
+Wire Wire Line
+	2845 6920 2845 7330
+Wire Wire Line
+	605  6920 605  7330
+Wire Wire Line
+	2775 7020 2860 7020
+Connection ~ 2775 7020
+Wire Wire Line
+	2775 7020 2775 6820
+Wire Wire Line
+	535  7020 620  7020
+Connection ~ 535  7020
+Wire Wire Line
+	535  7020 535  6820
+Wire Wire Line
+	5005 2535 4300 2535
+Wire Wire Line
+	1305 5095 4300 5095
+Wire Wire Line
+	4300 5095 10190 5095
+Connection ~ 4300 5095
+Wire Wire Line
+	4300 2535 4300 5095
+Wire Wire Line
+	2405 1300 2485 1300
+Entry Wire Line
+	2405 1300 2305 1200
+Entry Bus Bus
+	2305 610  2205 510 
+Wire Wire Line
+	4200 2435 4200 5195
+Wire Wire Line
+	4200 2435 5005 2435
+Connection ~ 4200 5195
+Wire Wire Line
+	4200 5195 10190 5195
+Wire Wire Line
+	1305 5195 4200 5195
+Wire Wire Line
+	1305 4495 3200 4495
+Wire Wire Line
+	3200 2135 3200 4495
+Connection ~ 3200 4495
+Wire Wire Line
+	3200 4495 6100 4495
+Wire Wire Line
+	3295 4295 6100 4295
+Wire Wire Line
+	6100 4095 10190 4095
+Wire Wire Line
+	6100 4295 6100 4095
+$Comp
+L 74xgxx:74AHC1G125 U7
+U 1 1 5F39844E
+P 2730 2435
+F 0 "U7" H 2665 2430 50  0000 C CNN
+F 1 "NC7SZ125P5X" H 2705 2169 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2730 2435 50  0001 C CNN
+F 3 "" H 2730 2435 50  0001 C CNN
+F 4 "ON Semi NC7SZ125P5X" H 2730 2435 50  0001 C CNN "Type"
+	1    2730 2435
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xgxx:74AUC2G125 U8
+U 1 1 5F3A0351
+P 8350 2420
+F 0 "U8" H 8275 2420 50  0000 C CNN
+F 1 "NC7WZ125K8X" H 8350 2170 50  0000 C CNN
+F 2 "Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm" H 8350 2420 50  0001 C CNN
+F 3 "" H 8350 2420 50  0001 C CNN
+F 4 "ON Semi NC7WZ125K8X" H 8350 2420 50  0001 C CNN "Type"
+	1    8350 2420
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xgxx:74AUC2G125 U8
+U 2 1 5F3A26A5
+P 8350 2875
+F 0 "U8" H 8285 2870 50  0000 C CNN
+F 1 "NC7WZ125K8X" H 8325 2609 50  0001 C CNN
+F 2 "Housings_SSOP:VSSOP-8_2.3x2mm_Pitch0.5mm" H 8350 2875 50  0001 C CNN
+F 3 "" H 8350 2875 50  0001 C CNN
+F 4 "ON Semi NC7WZ125K8X" H 8350 2875 50  0001 C CNN "Type"
+	2    8350 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2135 5005 2135
+Wire Wire Line
+	3300 2235 3300 1300
+Wire Wire Line
+	3300 1300 3035 1300
+Wire Wire Line
+	3300 2235 5005 2235
+Wire Wire Line
+	3100 2335 3100 1695
+Wire Wire Line
+	3100 1695 3035 1695
+Wire Wire Line
+	3100 2335 5005 2335
+Wire Wire Line
+	3700 2435 3030 2435
+Wire Wire Line
+	2480 2435 2350 2435
+Wire Wire Line
+	2350 2435 2350 2950
+Wire Wire Line
+	2350 2950 3100 2950
+Wire Wire Line
+	3100 2950 3100 5595
+Wire Wire Line
+	1305 5595 3100 5595
+Wire Wire Line
+	3200 2135 2730 2135
+Wire Wire Line
+	2730 2135 2730 2235
+Connection ~ 3200 2135
+Text GLabel 8400 2370 2    20   Output ~ 0
+5V0
+Wire Wire Line
+	7800 3595 7800 2875
+Wire Wire Line
+	3900 3995 7905 3995
+Wire Wire Line
+	8000 4395 8000 2635
+Wire Wire Line
+	8000 2635 8350 2635
+Wire Wire Line
+	8350 2635 8350 2675
+Connection ~ 8000 4395
+Wire Wire Line
+	8000 4395 10190 4395
+Wire Wire Line
+	8000 2635 8000 2165
+Wire Wire Line
+	8000 2165 8350 2165
+Wire Wire Line
+	8350 2165 8350 2220
+Connection ~ 8000 2635
+Wire Wire Line
+	8800 3195 8800 2420
+Wire Wire Line
+	8800 2420 8600 2420
+Wire Wire Line
+	8800 3195 10190 3195
+Wire Wire Line
+	8600 2875 8650 2875
+Wire Wire Line
+	8650 2875 8650 3995
+Wire Wire Line
+	8650 3995 10190 3995
+$Comp
+L power:GND #PWR03
+U 1 1 5F3CFA44
+P 8400 2470
+F 0 "#PWR03" H 8400 2220 50  0001 C CNN
+F 1 "GND" H 8400 2335 20  0000 C CNN
+F 2 "" H 8400 2470 50  0001 C CNN
+F 3 "" H 8400 2470 50  0001 C CNN
+	1    8400 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F243270
+P 2735 1400
+F 0 "#PWR0106" H 2735 1150 50  0001 C CNN
+F 1 "GND" H 2735 1265 20  0000 C CNN
+F 2 "" H 2735 1400 50  0001 C CNN
+F 3 "" H 2735 1400 50  0001 C CNN
+	1    2735 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7905 2420 7905 3995
+Wire Wire Line
+	7905 2420 8050 2420
+Wire Wire Line
+	7800 2875 8050 2875
+Wire Bus Line
+	505  510  7145 510 
+Wire Bus Line
+	2305 610  2305 1595
+Wire Bus Line
+	2745 6015 2745 6820
+Wire Bus Line
+	505  6015 505  6820
+Wire Bus Line
+	4835 6420 4835 7365
+Wire Bus Line
+	7145 510  7145 1735
+Wire Bus Line
+	2595 6420 2595 7465
+Wire Bus Line
+	2595 7465 6710 7465
+$EndSCHEMATC
