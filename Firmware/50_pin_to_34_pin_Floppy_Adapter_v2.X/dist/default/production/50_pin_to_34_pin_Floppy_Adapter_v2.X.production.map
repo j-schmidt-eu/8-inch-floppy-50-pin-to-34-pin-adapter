@@ -1,0 +1,869 @@
+Microchip MPLAB XC8 Compiler V2.20
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.20\pic\dat\en_msgs.txt -cn \
+  -h+dist/default/production\50_pin_to_34_pin_Floppy_Adapter_v2.X.production.sym \
+  --cmf=dist/default/production\50_pin_to_34_pin_Floppy_Adapter_v2.X.production.cmf \
+  -z -Q18F26K22 -oC:\Users\ENTWIC~1\AppData\Local\Temp\s518.2 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/50_pin_to_34_pin_Floppy_Adapter_v2.X.production.map \
+  -E1 -ver=XC8 Compiler --acfsm=1493 -ASTACK=092h-0F37h -pstack=STACK \
+  -ACODE=00h-0FFFFh -ACONST=00h-0FFFFh -ASMALLCONST=01000h-010FFhx240 \
+  -AMEDIUMCONST=01000h-0FFFFh -ACOMRAM=01h-05Fh -AABS1=00h-0F37h \
+  -ABIGRAM=01h-0F37h -ARAM=060h-0FFh,0100h-01FFhx14,0F00h-0F37h \
+  -ABANK0=060h-0FFh -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh \
+  -ABANK3=0300h-03FFh -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh \
+  -ABANK6=0600h-06FFh -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh \
+  -ABANK9=0900h-09FFh -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh \
+  -ABANK12=0C00h-0CFFh -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0EFFh \
+  -ABANK15=0F00h-0F37h -ASFR=0F38h-0F5Fh,0F60h-0FFFh \
+  -ACONFIG=0300000h-030000Dh -AIDLOC=0200000h-0200007h \
+  -preset_vec=00h,intcode=08h,intcodelo=018h,powerup,init -pramtop=01000h \
+  -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST -pconst=CONST \
+  -AFARRAM=00h-00h -AEEDATA=0F00000h-0F003FFh -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\ENTWIC~1\AppData\Local\Temp\s518.o \
+  dist/default/production\50_pin_to_34_pin_Floppy_Adapter_v2.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 18F26K22
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\ENTWIC~1\AppData\Local\Temp\s518.o
+                idloc                            200000   200000        8        0       5
+                config                           300000   300000        E        0       4
+                init                                2A4      2A4        4        C       0
+                reset_vec                             0        0        4        0       0
+dist/default/production\50_pin_to_34_pin_Floppy_Adapter_v2.X.production.o
+                eeprom_data                      F00000   F00000       10   F00000       0
+                intcodelo                            18       18      28C        C       0
+                intcode                               8        8        6        4       0
+                idloc                            200000   200000        8        0       5
+                config                           300000   300000        E        0       4
+                temp                                 42       42        1        1       1
+                intcode_body                       10B4     10B4      1D4        C       0
+                text7                              1400     1400       A4        C       0
+                text6                              14A4     14A4       6A        C       0
+                text4                              1582     1582       12        C       0
+                text3                              1550     1550       32        C       0
+                text2                              1288     1288       C6        C       0
+                text1                              134E     134E       B2        C       0
+                text0                               2A8      2A8      E0C        C       0
+                cstackCOMRAM                          1        1       36        1       1
+                cstackBANK0                          7E       7E        F       60       1
+                dataBANK0                            90       90        2       60       1
+                bssBANK0                             60       60       1E       60       1
+                bssCOMRAM                            39       39        9        1       1
+                bitbssCOMRAM                        1B8       37        B        1       1     8
+                cinit                              150E     150E       42        C       0
+                nvBANK0                              8D       8D        3       60       1
+                idataBANK0                         1594     1594        2        C       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                intcodelo                            18       18      28C         0
+                intcode                               8        8        6         0
+                init                                2A4      2A4        4         0
+                reset_vec                             0        0        4         0
+                intcode_body                       10B4     10B4      1D4         0
+                text7                              1400     1400       A4         0
+                text6                              14A4     14A4       6A         0
+                text4                              1582     1582       12         0
+                text3                              1550     1550       32         0
+                text2                              1288     1288       C6         0
+                text1                              134E     134E       B2         0
+                text0                               2A8      2A8      E0C         0
+                cinit                              150E     150E       42         0
+                idataBANK0                         1594     1594        2         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                temp                                 42       42        1         1
+                cstackCOMRAM                          1        1       36         1
+                bssCOMRAM                            39       39        9         1
+                bitbssCOMRAM                        1B8       37        B         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+                cstackBANK0                          7E       7E        F         1
+                dataBANK0                            90       90        2         1
+                bssBANK0                             60       60       1E         1
+                nvBANK0                              8D       8D        3         1
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   BANK4          
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   BANK15         
+
+        CLASS   SFR            
+
+        CLASS   CONFIG         
+                config                           300000   300000        E         4
+
+        CLASS   IDLOC          
+                idloc                            200000   200000        8         5
+
+        CLASS   FARRAM         
+
+        CLASS   EEDATA         
+                eeprom_data                      F00000   F00000       10         0
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                cstackCOMRAM                   000001  000042  000043         1       1  COMRAM  
+                intcode                        000008  000006  00000E         4       0  CODE    
+                intcodelo                      000018  00157E  001596         C       0  CODE    
+                bssBANK0                       000060  000032  000092        60       1  BANK0   
+                eeprom_data                    F00000  000010  F00010    F00000       0  EEDATA  
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            000092-0000FF               6E
+        BANK1            000100-0001FF              100
+        BANK10           000A00-000AFF              100
+        BANK11           000B00-000BFF              100
+        BANK12           000C00-000CFF              100
+        BANK13           000D00-000DFF              100
+        BANK14           000E00-000EFF              100
+        BANK15           000F00-000F37               38
+        BANK2            000200-0002FF              100
+        BANK3            000300-0003FF              100
+        BANK4            000400-0004FF              100
+        BANK5            000500-0005FF              100
+        BANK6            000600-0006FF              100
+        BANK7            000700-0007FF              100
+        BANK8            000800-0008FF              100
+        BANK9            000900-0009FF              100
+        BIGRAM           000043-00005F               1D
+                         000092-000F37              EA6
+        CODE             000004-000007                4
+                         00000E-000017                A
+                         001596-00FFFF             EA6A
+        COMRAM           000043-00005F               1D
+        CONST            000004-000007                4
+                         00000E-000017                A
+                         001596-00FFFF             EA6A
+        EEDATA           F00010-F003FF              3F0
+        MEDIUMCONST      001596-00FFFF             EA6A
+        RAM              000092-000F37              100
+        SFR              000F38-000FFF               28
+        SMALLCONST       001596-00FFFF              100
+        STACK            000092-000F37              EA6
+
+                                  Symbol Table
+
+?___awdiv                cstackBANK0  00007E
+?___awmod                cstackBANK0  00007E
+?___lldiv                cstackCOMRAM 000014
+?___lmul                 cstackCOMRAM 000008
+EepromRead@address       cstackBANK0  00007E
+EepromWrite@address      cstackBANK0  00007E
+EepromWrite@data         cstackBANK0  000082
+_ANSELA                  (abs)        000F38
+_ANSELB                  (abs)        000F39
+_ANSELC                  (abs)        000F3A
+_CCP2CON                 (abs)        000F66
+_CCP3CON                 (abs)        000F5D
+_CCP5CON                 (abs)        000F54
+_CCPTMRS0                (abs)        000F49
+_CCPTMRS1                (abs)        000F48
+_EEADR                   (abs)        000FA9
+_EEADRH                  (abs)        000FAA
+_EECON1bits              (abs)        000FA6
+_EECON2                  (abs)        000FA7
+_EEDATA                  (abs)        000FA8
+_EepromRead              text4        001582
+_EepromWrite             text3        001550
+_INTCON2bits             (abs)        000FF1
+_INTCON3bits             (abs)        000FF0
+_INTCONbits              (abs)        000FF2
+_IPR1bits                (abs)        000F9F
+_IPR2bits                (abs)        000FA2
+_IPR4bits                (abs)        000F7C
+_IPR5bits                (abs)        000F7F
+_OSCCON                  (abs)        000FD3
+_OSCTUNE                 (abs)        000F9B
+_PIE1bits                (abs)        000F9D
+_PIE2bits                (abs)        000FA0
+_PIE4bits                (abs)        000F7A
+_PIE5bits                (abs)        000F7D
+_PIR1bits                (abs)        000F9E
+_PIR2bits                (abs)        000FA1
+_PIR4bits                (abs)        000F7B
+_PIR5bits                (abs)        000F7E
+_PORTA                   (abs)        000F80
+_PORTAbits               (abs)        000F80
+_PORTBbits               (abs)        000F81
+_PORTC                   (abs)        000F82
+_PR2                     (abs)        000FBB
+_PR4                     (abs)        000F52
+_RCONbits                (abs)        000FD0
+_T0CON                   (abs)        000FD5
+_T1CON                   (abs)        000FCD
+_T2CON                   (abs)        000FBA
+_T4CON                   (abs)        000F51
+_TMR2                    (abs)        000FBC
+_TRISA                   (abs)        000F92
+_TRISB                   (abs)        000F93
+_TRISC                   (abs)        000F94
+__HRAM                   (abs)        000000
+__Habs1                  abs1         000000
+__Hbank0                 bank0        000000
+__Hbank1                 bank1        000000
+__Hbank10                bank10       000000
+__Hbank11                bank11       000000
+__Hbank12                bank12       000000
+__Hbank13                bank13       000000
+__Hbank14                bank14       000000
+__Hbank15                bank15       000000
+__Hbank2                 bank2        000000
+__Hbank3                 bank3        000000
+__Hbank4                 bank4        000000
+__Hbank5                 bank5        000000
+__Hbank6                 bank6        000000
+__Hbank7                 bank7        000000
+__Hbank8                 bank8        000000
+__Hbank9                 bank9        000000
+__Hbigbss                bigbss       000000
+__Hbigdata               bigdata      000000
+__Hbigram                bigram       000000
+__HbitbssCOMRAM          bitbssCOMRAM 000000
+__Hbss                   bss          000000
+__HbssBANK0              bssBANK0     000000
+__HbssCOMRAM             bssCOMRAM    000000
+__Hcinit                 cinit        000000
+__Hclrtext               clrtext      000000
+__Hcomram                comram       000000
+__Hconfig                config       30000E
+__Hconst                 const        000000
+__HcstackBANK0           cstackBANK0  000000
+__HcstackCOMRAM          cstackCOMRAM 000000
+__Hdata                  data         000000
+__HdataBANK0             dataBANK0    000000
+__Heeprom_data           eeprom_data  F00010
+__Hfarbss                farbss       000000
+__Hfardata               fardata      000000
+__Hibigdata              ibigdata     000000
+__Hidata                 idata        000000
+__HidataBANK0            idataBANK0   000000
+__Hidloc                 idloc        200008
+__Hifardata              ifardata     000000
+__Hinit                  init         0002A8
+__Hintcode               intcode      00000E
+__Hintcode_body          intcode_body 000000
+__Hintcodelo             intcodelo    0002A4
+__Hintentry              intentry     000000
+__Hintret                intret       000000
+__Hintsave_regs          intsave_regs 000000
+__Hirdata                irdata       000000
+__Hmediumconst           mediumconst  000000
+__HnvBANK0               nvBANK0      000000
+__HnvFARRAM              nvFARRAM     000000
+__Hnvbit                 nvbit        000000
+__Hnvrram                nvrram       000000
+__Hparam                 rparam       000000
+__Hpowerup               powerup      0002A4
+__Hram                   ram          000000
+__Hramtop                ramtop       001000
+__Hrbit                  rbit         000000
+__Hrbss                  rbss         000000
+__Hrdata                 rdata        000000
+__Hreset_vec             reset_vec    000004
+__Hrparam                rparam       000000
+__Hsfr                   sfr          000000
+__Hsmallconst            smallconst   000000
+__Hspace_0               (abs)        F00010
+__Hspace_1               (abs)        0001C3
+__Hspace_2               (abs)        000000
+__Hspace_4               (abs)        60000E
+__Hstack                 stack        000000
+__Hstruct                struct       000000
+__Htemp                  temp         000043
+__Htext                  text         000000
+__Htext0                 text0        000000
+__Htext1                 text1        000000
+__Htext2                 text2        000000
+__Htext3                 text3        000000
+__Htext4                 text4        000000
+__Htext6                 text6        000000
+__Htext7                 text7        000000
+__LRAM                   (abs)        000001
+__Labs1                  abs1         000000
+__Lbank0                 bank0        000000
+__Lbank1                 bank1        000000
+__Lbank10                bank10       000000
+__Lbank11                bank11       000000
+__Lbank12                bank12       000000
+__Lbank13                bank13       000000
+__Lbank14                bank14       000000
+__Lbank15                bank15       000000
+__Lbank2                 bank2        000000
+__Lbank3                 bank3        000000
+__Lbank4                 bank4        000000
+__Lbank5                 bank5        000000
+__Lbank6                 bank6        000000
+__Lbank7                 bank7        000000
+__Lbank8                 bank8        000000
+__Lbank9                 bank9        000000
+__Lbigbss                bigbss       000000
+__Lbigdata               bigdata      000000
+__Lbigram                bigram       000000
+__LbitbssCOMRAM          bitbssCOMRAM 000000
+__Lbss                   bss          000000
+__LbssBANK0              bssBANK0     000000
+__LbssCOMRAM             bssCOMRAM    000000
+__Lcinit                 cinit        000000
+__Lclrtext               clrtext      000000
+__Lcomram                comram       000000
+__Lconfig                config       000000
+__Lconst                 const        000000
+__LcstackBANK0           cstackBANK0  000000
+__LcstackCOMRAM          cstackCOMRAM 000000
+__Ldata                  data         000000
+__LdataBANK0             dataBANK0    000000
+__Leeprom_data           eeprom_data  F00000
+__Lfarbss                farbss       000000
+__Lfardata               fardata      000000
+__Libigdata              ibigdata     000000
+__Lidata                 idata        000000
+__LidataBANK0            idataBANK0   000000
+__Lidloc                 idloc        000000
+__Lifardata              ifardata     000000
+__Linit                  init         0002A4
+__Lintcode               intcode      000008
+__Lintcode_body          intcode_body 000000
+__Lintcodelo             intcodelo    000018
+__Lintentry              intentry     000000
+__Lintret                intret       000000
+__Lintsave_regs          intsave_regs 000000
+__Lirdata                irdata       000000
+__Lmediumconst           mediumconst  000000
+__LnvBANK0               nvBANK0      000000
+__LnvFARRAM              nvFARRAM     000000
+__Lnvbit                 nvbit        000000
+__Lnvrram                nvrram       000000
+__Lparam                 rparam       000000
+__Lpowerup               powerup      0002A4
+__Lram                   ram          000000
+__Lramtop                ramtop       001000
+__Lrbit                  rbit         000000
+__Lrbss                  rbss         000000
+__Lrdata                 rdata        000000
+__Lreset_vec             reset_vec    000000
+__Lrparam                rparam       000000
+__Lsfr                   sfr          000000
+__Lsmallconst            smallconst   000000
+__Lspace_0               (abs)        000000
+__Lspace_1               (abs)        000000
+__Lspace_2               (abs)        000000
+__Lspace_4               (abs)        000000
+__Lstack                 stack        000000
+__Lstruct                struct       000000
+__Ltemp                  temp         000042
+__Ltext                  text         000000
+__Ltext0                 text0        000000
+__Ltext1                 text1        000000
+__Ltext2                 text2        000000
+__Ltext3                 text3        000000
+__Ltext4                 text4        000000
+__Ltext6                 text6        000000
+__Ltext7                 text7        000000
+__S0                     (abs)        F00010
+__S1                     (abs)        000092
+__S2                     (abs)        000000
+__S4                     (abs)        000000
+__S5                     (abs)        000000
+___awdiv                 text2        001288
+___awdiv@counter         cstackBANK0  000082
+___awdiv@dividend        cstackBANK0  00007E
+___awdiv@divisor         cstackBANK0  000080
+___awdiv@quotient        cstackBANK0  000084
+___awdiv@sign            cstackBANK0  000083
+___awmod                 text1        00134E
+___awmod@counter         cstackBANK0  000082
+___awmod@dividend        cstackBANK0  00007E
+___awmod@divisor         cstackBANK0  000080
+___awmod@sign            cstackBANK0  000083
+___inthi_sp              stack        000000
+___intlo_sp              stack        000000
+___lldiv                 text7        001400
+___lldiv@counter         cstackCOMRAM 000020
+___lldiv@dividend        cstackCOMRAM 000014
+___lldiv@divisor         cstackCOMRAM 000018
+___lldiv@quotient        cstackCOMRAM 00001C
+___lmul                  text6        0014A4
+___lmul@multiplicand     cstackCOMRAM 00000C
+___lmul@multiplier       cstackCOMRAM 000008
+___lmul@product          cstackCOMRAM 000010
+___param_bank            (abs)        000000
+___rparam_used           (abs)        000001
+___sp                    stack        000000
+__accesstop              (abs)        000060
+__activetblptr           (abs)        000002
+__end_of_EepromRead      text4        001594
+__end_of_EepromWrite     text3        001582
+__end_of___awdiv         text2        00134E
+__end_of___awmod         text1        001400
+__end_of___lldiv         text7        0014A4
+__end_of___lmul          text6        00150E
+__end_of__initialization cinit        001542
+__end_of_isrHighPrio     intcode_body 001288
+__end_of_isrLowPrio      intcodelo    0002A4
+__end_of_main            text0        0010B4
+__initialization         cinit        00150E
+__mediumconst            mediumconst  000000
+__pbitbssCOMRAM          bitbssCOMRAM 0001B8
+__pbssBANK0              bssBANK0     000060
+__pbssCOMRAM             bssCOMRAM    000039
+__pcinit                 cinit        00150E
+__pcstackBANK0           cstackBANK0  00007E
+__pcstackCOMRAM          cstackCOMRAM 000001
+__pdataBANK0             dataBANK0    000090
+__pidataBANK0            idataBANK0   001594
+__pintcode               intcode      000008
+__pintcode_body          intcode_body 0010B4
+__pintcodelo             intcodelo    000018
+__pnvBANK0               nvBANK0      00008D
+__ptext0                 text0        0002A8
+__ptext1                 text1        00134E
+__ptext2                 text2        001288
+__ptext3                 text3        001550
+__ptext4                 text4        001582
+__ptext6                 text6        0014A4
+__ptext7                 text7        001400
+__ramtop                 ramtop       001000
+__size_of_EepromRead     (abs)        000000
+__size_of_EepromWrite    (abs)        000000
+__size_of___awdiv        (abs)        000000
+__size_of___awmod        (abs)        000000
+__size_of___lldiv        (abs)        000000
+__size_of___lmul         (abs)        000000
+__size_of_isrHighPrio    (abs)        000000
+__size_of_isrLowPrio     (abs)        000000
+__size_of_main           (abs)        000000
+__smallconst             smallconst   000000
+_blink                   bitbssCOMRAM 0001C2
+_counter1000Hz           bssBANK0     000068
+_counter6000Hz           bssCOMRAM    00003E
+_driveParams             dataBANK0    000090
+_driveParams_A           bssBANK0     000077
+_driveParams_B           bssBANK0     000070
+_isrHighPrio             intcode      000008
+_isrLowPrio              intcodelo    000018
+_isrLowPrio$1074         cstackCOMRAM 00002A
+_main                    text0        0002A8
+btemp                    temp         000042
+end_of_initialization    cinit        001542
+int$flags                temp         000042
+int_func                 intcode_body 0010B4
+intlevel0                text         000000
+intlevel1                text         000000
+intlevel2                text         000000
+intlevel3                text         000000
+isrLowPrio@clockDivider  bssCOMRAM    00003D
+isrLowPrio@counter500    bssCOMRAM    000039
+isrLowPrio@deviation     cstackCOMRAM 00002E
+isrLowPrio@percent       cstackCOMRAM 000032
+isrLowPrio@sign          cstackCOMRAM 000036
+main@bcd1                bssBANK0     00006F
+main@bcd2                bssBANK0     00006E
+main@cmdSwitch           bitbssCOMRAM 0001C0
+main@cmdSwitchLast       bitbssCOMRAM 0001BB
+main@cmdSwitchLong       bitbssCOMRAM 0001B9
+main@cmdSwitchShort      bitbssCOMRAM 0001BA
+main@cmdSwitchStartCount bssBANK0     000064
+main@counts              cstackBANK0  000089
+main@displayMode         nvBANK0      00008E
+main@dot1                bitbssCOMRAM 0001BD
+main@dot2                bitbssCOMRAM 0001BC
+main@eepromAddress       bssBANK0     000060
+main@eepromValue         nvBANK0      00008D
+main@externalSignal      bitbssCOMRAM 0001C1
+main@headLoad            bitbssCOMRAM 0001BF
+main@menuEdit            bitbssCOMRAM 0001B8
+main@menuMode            bssBANK0     00006C
+main@speed               bssBANK0     00006D
+main@startDisplayMode    nvBANK0      00008F
+main@tg43                bitbssCOMRAM 0001BE
+stackhi                  (abs)        000F37
+stacklo                  (abs)        000092
+start                    init         0002A4
+start_initialization     cinit        00150E
+ttemp5                   temp         000043
+ttemp6                   temp         000046
+ttemp7                   temp         00004A
+wtemp8                   temp         000043
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 112 in file "avr-main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  counts          4   11[BANK0 ] unsigned long 
+ Return value:  Size  Location     Type
+                  2  112[None  ] int 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       7       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels required when called:    4
+ This function calls:
+		_EepromRead
+		_EepromWrite
+		___awdiv
+		___awmod
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function ___awmod *****************
+ Defined at:
+		line 7 in file "C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c"
+ Parameters:    Size  Location     Type
+  dividend        2    0[BANK0 ] int 
+  divisor         2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       6       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 7 in file "C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  dividend        2    0[BANK0 ] int 
+  divisor         2    2[BANK0 ] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    6[BANK0 ] int 
+  sign            1    5[BANK0 ] unsigned char 
+  counter         1    4[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[BANK0 ] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       8       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _EepromWrite *****************
+ Defined at:
+		line 803 in file "avr-main.c"
+ Parameters:    Size  Location     Type
+  address         4    0[BANK0 ] unsigned long 
+  data            1    4[BANK0 ] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _EepromRead *****************
+ Defined at:
+		line 791 in file "avr-main.c"
+ Parameters:    Size  Location     Type
+  address         4    0[BANK0 ] unsigned long 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _isrLowPrio *****************
+ Defined at:
+		line 646 in file "avr-main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  percent         4   49[COMRAM] unsigned long 
+  deviation       4   45[COMRAM] unsigned long 
+  sign            1   53[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:        13       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          9       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:        22       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       22 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		___lldiv
+		___lmul
+ This function is called by:
+		Interrupt level 1
+ This function uses a non-reentrant model
+
+
+ *************** function ___lmul *****************
+ Defined at:
+		line 15 in file "C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c"
+ Parameters:    Size  Location     Type
+  multiplier      4    7[COMRAM] unsigned long 
+  multiplicand    4   11[COMRAM] unsigned long 
+ Auto vars:     Size  Location     Type
+  product         4   15[COMRAM] unsigned long 
+ Return value:  Size  Location     Type
+                  4    7[COMRAM] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         8       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:        12       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_isrLowPrio
+ This function uses a non-reentrant model
+
+
+ *************** function ___lldiv *****************
+ Defined at:
+		line 7 in file "C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__lldiv.c"
+ Parameters:    Size  Location     Type
+  dividend        4   19[COMRAM] unsigned long 
+  divisor         4   23[COMRAM] unsigned long 
+ Auto vars:     Size  Location     Type
+  quotient        4   27[COMRAM] unsigned long 
+  counter         1   31[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  4   19[COMRAM] unsigned long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         8       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:        13       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       13 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_isrLowPrio
+ This function uses a non-reentrant model
+
+
+ *************** function _isrHighPrio *****************
+ Defined at:
+		line 704 in file "avr-main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14  BANK15
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          7       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		Interrupt level 2
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+avr-main.c
+		_EepromWrite   		CODE           	1550	0000	51
+		_isrLowPrio    		CODE           	0018	0000	653
+		_main          		CODE           	02A8	0000	3597
+		_EepromRead    		CODE           	1582	0000	19
+		_isrHighPrio   		CODE           	0008	0000	475
+
+avr-main.c estimated size: 4795
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c
+		___awmod       		CODE           	134E	0000	179
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awmod.c estimated size: 179
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+		___lmul        		CODE           	14A4	0000	107
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c estimated size: 107
+
+shared
+		__initialization		CODE           	150E	0000	53
+
+shared estimated size: 53
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__lldiv.c
+		___lldiv       		CODE           	1400	0000	165
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\__lldiv.c estimated size: 165
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awdiv.c
+		___awdiv       		CODE           	1288	0000	199
+
+C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\awdiv.c estimated size: 199
+
