@@ -219,14 +219,6 @@ If so, check if one of the available options matches the behavior required by th
 >**Yes.**
 
 
-##### Can I build and use this for work in a non-profit organization?
->**[Please contact me.](https://mailhide.io/e/egvcl)**
-
-
-##### Can I build and use this for work in a commercial setting?
->**[Please contact me.](https://mailhide.io/e/egvcl)**
-
-
 ## Licensing
 This project is licensed under the [CC BY-NC-ND 4.0 license](LICENSE).
 
